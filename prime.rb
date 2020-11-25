@@ -1,9 +1,9 @@
 def prime?(number)
 #trial_division
   f = 2
-  while n > 1
-    if n % f == 0
-      n /= f
+  while number > 1
+    if number % f == 0
+      number /= f
     else
       f += 1
     end
