@@ -5,8 +5,9 @@ def prime?(number)
   f = 2
   while number > f
     return false if number % f == 0
+      binding.pry
       f += 1
     end
-  binding.pry
+
   true
 end
