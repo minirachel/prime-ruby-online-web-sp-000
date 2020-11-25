@@ -11,4 +11,4 @@ def prime?(number)
   true
 end
 
-prime?(number)
+prime?(-1)
