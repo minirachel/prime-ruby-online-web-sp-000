@@ -7,5 +7,5 @@ def prime?(number)
     else
       f += 1
     end
-    
+  end
 end
