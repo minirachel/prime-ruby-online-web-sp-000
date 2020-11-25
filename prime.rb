@@ -10,5 +10,3 @@ def prime?(number)
   binding.pry
   true
 end
-
-prime?(-1)
