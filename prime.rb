@@ -3,7 +3,7 @@ require 'pry'
 
 def prime?(number)
   f = 2
-  if number > f
+  if number >= f
     return false
     if number % f <= 0
       f += 1
