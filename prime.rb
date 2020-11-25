@@ -6,4 +6,6 @@ def prime?(number)
       n /= f
     else
       f += 1
+    end
+    
 end
